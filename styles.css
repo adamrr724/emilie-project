@@ -1,0 +1,147 @@
+body {
+   font-family: 'Libre Franklin', sans-serif;
+   font-weight: 200;
+   font-style: normal;
+   background-color: #fafafa;
+   width: 100%;
+   margin: 0;
+   color: #616161;
+}
+
+.navigation {
+  width: 100%;
+  text-align: center;
+  background-color:#ffebee;
+  height: 55px;
+  box-shadow: grey 0px 1px 8px;
+  position:sticky;
+  top:0;
+}
+
+.nav-link {
+  text-decoration: none;
+  margin: 20px;
+  display: inline-flex;
+  color: #616161;
+}
+
+.nav-link:hover {
+  color: cadetblue;
+}
+
+.header {
+   margin: auto;
+   width: 90%;
+   text-align: center;
+}
+
+.footer {
+    margin-top: 25px;
+    width: 100%;
+    background-color:#e0e0e0;
+    box-shadow: grey 0 -1px 8px;
+    position:sticky;
+    bottom:0;
+}
+
+.footer-container {
+    padding-top:15px;
+    padding-bottom: 15px;
+    display: flex;
+}
+
+.footer-container p {
+    font-weight: 400;
+    margin-top: 0;
+    margin-right: 20px;
+}
+
+.footer-container ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.footer-link-container {
+    position: absolute;
+    right: 0;
+    height: 100%;
+}
+
+.footer-link {
+  text-decoration: none;
+  margin-right: 20px;
+  color: #616161;
+  line-height: 60px;
+}
+
+.footer-link:hover {
+  color: cadetblue;
+}
+
+.name {
+   font-family: 'Libre Franklin', sans-serif;
+   font-weight: 200;
+   font-style: normal;
+   font-size: 50px;
+}
+
+.description {
+   font-family: 'Libre Franklin', sans-serif;
+   font-weight: 300;
+   font-style: normal;
+   font-size: 25px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 98%;
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+}
+
+.box{
+    display: flex;
+    margin: 10px;
+    background-color: #9fa8da;
+    width: 210px;
+    height: 210px;
+    box-shadow: grey 1px 5px 5px;
+    border-radius: 3px;
+}
+
+.box1:hover {
+   background-image: url("images/rose.jpeg");
+}
+
+.box2:hover {
+   background-image: url("images/rose.jpeg");
+}
+
+.box3:hover {
+   background-image: url("images/rose.jpeg");
+}
+
+.box4:hover {
+   background-image: url("images/rose.jpeg");
+}
+
+.box5:hover {
+   background-image: url("images/rose.jpeg");
+}
+
+.box6:hover {
+   background-image: url("images/rose.jpeg");
+}
+
+.box7:hover {
+   background-image: url("images/rose.jpeg")
+}
+
+.box8:hover {
+   background-image: url("images/rose.jpeg");
+}
