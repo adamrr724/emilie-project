@@ -1,5 +1,5 @@
 body {
-   font-family: 'Libre Franklin', sans-serif;
+   Font-Family: 'Libre Franklin', Sans-Serif;
    font-weight: 200;
    font-style: normal;
    background-color: #fafafa;
@@ -33,12 +33,14 @@ body {
    margin: auto;
    width: 90%;
    text-align: center;
+   Font-Family: 'Raleway', Sans-Serif;
+   font-weight: lighter;
 }
 
 .footer {
     margin-top: 25px;
     width: 100%;
-    background-color:#e0e0e0;
+    background-color: #eceff1;
     box-shadow: grey 0 -1px 8px;
     position:sticky;
     bottom:0;
@@ -79,14 +81,14 @@ body {
 }
 
 .name {
-   font-family: 'Libre Franklin', sans-serif;
+   /* Font-Family: 'Open Sans', Sans-Serif; */
    font-weight: 200;
    font-style: normal;
    font-size: 50px;
 }
 
 .description {
-   font-family: 'Libre Franklin', sans-serif;
+   /* Font-Family: 'Open Sans', Sans-Serif; */
    font-weight: 300;
    font-style: normal;
    font-size: 25px;
@@ -96,7 +98,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin: auto;
-    width: 98%;
+    width: 100%;
     justify-content: center;
 }
 
@@ -106,12 +108,35 @@ li {
 
 .box{
     display: flex;
-    margin: 10px;
-    background-color: #9fa8da;
-    width: 210px;
-    height: 210px;
-    box-shadow: grey 1px 5px 5px;
-    border-radius: 3px;
+    margin: 5px;
+    height:200px;
+    width: 200px;
+    box-shadow: grey 1px 3px 5px;
+    /* border-radius: 3px; */
+}
+
+.non-recyclable .box {
+    background-color: #90a4ae;
+}
+
+.recyclable-1 .box {
+    background-color: #fff59d;
+}
+
+.recyclable-2 .box {
+    background-color: #a5d6a7;
+}
+
+.non-recyclable {
+    display: contents;
+}
+
+.recyclable-1 {
+    display: contents;
+}
+
+.recyclable-2 {
+    display: contents;
 }
 
 .box1:hover {
